@@ -24,19 +24,19 @@ export default function CustomNavbar() {
             }}
             sidenav={
                 <ul class="side-nav" id="mobile-menu">
-              <li>
-                <div class="userView">
-                  <a href="#!user"><img class="circle mobileNavPic"
-                      src="https://ca.slack-edge.com/T01EK8F49FD-U01EQLMH3S6-10ba5fdbd101-512"
-                      alt="User Image Sidenav"/></a>
-                  <a href="#!name"><span class="black-text name">Paul Vatterott</span></a>
-                  <a href="#!email"><span class="black-text email">pfvatterott@gmail.com</span></a>
-                </div>
-              </li>
-              <li><a href="#Contact">Contact</a></li>
-              <li><a href="#Languages">Languages and Skills</a></li>
-              <li><a href="#PortfolioMobile">Portfolio</a></li>
-            </ul>
+                    <li>
+                        <div class="userView">
+                        <a href="#!user"><img class="circle mobileNavPic"
+                            src="https://ca.slack-edge.com/T01EK8F49FD-U01EQLMH3S6-10ba5fdbd101-512"
+                            alt="User Image Sidenav"/></a>
+                        <a href="#!name"><span class="black-text name">Paul Vatterott</span></a>
+                        <a href="#!email"><span class="black-text email">pfvatterott@gmail.com</span></a>
+                        </div>
+                    </li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Languages">Languages and Skills</a></li>
+                    <li><a href="#PortfolioMobile">Portfolio</a></li>
+                </ul>
             }
             >
             
