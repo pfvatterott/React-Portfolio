@@ -1,0 +1,10 @@
+.navbar {
+    background-color: #2E3639;
+}
+
+.mobileNavPic {
+    height: 64px;
+    width: 64px;
+    float: left;
+    margin-top: 20px;
+}

@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import React from "react";
+import { Parallax } from 'react-materialize';
+import CustomNavbar from './components/Navbar'
+import background1 from './assets/images/background-1.png'
+import 'materialize-css';
 import './App.css';
+import 'material-icons/iconfont/material-icons.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CustomNavbar />
+      <Parallax
+        image={<img alt="" src={background1}/>}
+        options={{
+        responsiveThreshold: 0
+        }}
+      />
     </div>
   );
 }
