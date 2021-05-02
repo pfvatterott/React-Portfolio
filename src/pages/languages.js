@@ -19,9 +19,9 @@ function Languages() {
         />
         <Section>
             <Row className="container">
-                <Col s={12} m={6}>
-                    <h3 class="header grey-text text-darken-3 lighten-3" data-aos="fade-right">Languages and Skills</h3>
-                    <p class="grey-text text-darken-3 lighten-3" data-aos="fade-right">
+                <Col s={12} m={6} className="left-align">
+                    <h3 class="header grey-text text-darken-3 lighten-3 left-align" data-aos="fade-right">Languages and Skills</h3>
+                    <p class="grey-text text-darken-3 lighten-3 left-align" data-aos="fade-right">
                         <br/>
                         Since starting the University of Utah Web Development Program I have gone all in to hone my skills to be
                         ready for the job market. My natural curiosity paired with a strong work ethic means I am always looking to

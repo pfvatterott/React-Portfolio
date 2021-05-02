@@ -22,7 +22,7 @@ function Home() {
             <Col s={12} m={6} className="center-align">
                 <ProfilePic />
             </Col>
-            <Col s={12} m={6}>
+            <Col s={12} m={6} className="left-align">
                 <Name/>
                 <Icons href="https://github.com/pfvatterott" iconName="fab fa-github tooltipped contact-icons" tooltip="working" tooltipOptions={{position: 'top'}}/>
                 <Icons href="https://www.linkedin.com/in/paul-vatterott/" iconName="fab fa-linkedin-in tooltipped contact-icons"/>

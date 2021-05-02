@@ -1,17 +1,17 @@
 #resume {
-    margin-top: 25px;
-    height: 425px;
+    margin-top: 25px !important;
+    height: 425px !important;
 }
 
 .download-button {
-    background-color: #494D52;
-    margin-top: 30px;
-    min-width: 200px;
-    margin-left: 65px;
-    border-radius: 10px;
-    float: left;
+    background-color: #494D52 !important;
+    margin-top: 30px !important;
+    min-width: 200px !important;
+    margin-left: 65px !important;
+    border-radius: 10px !important;
+    float: left !important;
 }
 
 .download-button:hover {
-    background-color: #2E3639
+    background-color: #2E3639 !important;
 }
