@@ -24,20 +24,24 @@ export default function CustomNavbar() {
                 preventScrolling: true
             }}
             sidenav={
-                <ul class="side-nav" id="mobile-menu">
+                <div className="left-align">
                     <li>
                         <div class="userView">
                         <a href="#!user"><img class="circle mobileNavPic"
                             src="https://ca.slack-edge.com/T01EK8F49FD-U01EQLMH3S6-10ba5fdbd101-512"
                             alt="User Image Sidenav"/></a>
-                        <a href="#!name"><span class="black-text name">Paul Vatterott</span></a>
-                        <a href="#!email"><span class="black-text email">pfvatterott@gmail.com</span></a>
+                            <br></br><br></br>
+                        <a><span class="black-text name">Paul Vatterott</span></a>
+                        <br></br>
+                        <a href="mailto:pfvatterott@gmail.com"><span class="black-text email">pfvatterott@gmail.com</span></a>
                         </div>
                     </li>
+                <ul class="side-nav" id="mobile-menu">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/languages">Languages and Skills</Link></li>
                     <li><Link to="/portfolio">Portfolio</Link></li>
                 </ul>
+                </div>
             }
             >
             

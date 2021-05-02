@@ -1,10 +1,25 @@
 .navbar {
-    background-color: #2E3639;
+    background-color: #2E3639 !important;
 }
 
 .mobileNavPic {
-    height: 64px;
-    width: 64px;
-    float: left;
-    margin-top: 20px;
+    height: 64px !important;
+    width: 64px !important;
+    float: left !important;
+    margin-top: 20px !important;
+    margin-left: 30px !important;
+}
+
+.brand-logo {
+    position: relative;
+    left: 15%;
+}
+
+.name {
+    margin-left: 30px !important;
+    font-weight: bold;
+}
+
+.email {
+    margin-left: 30px !important;
 }
