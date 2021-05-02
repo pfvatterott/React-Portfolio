@@ -1,0 +1,14 @@
+.best-snow-border {
+    border-radius: 25px !important;
+    background-image: linear-gradient(to right, #002E57, #188BF0) !important;
+    width: 100% !important;
+    min-width: 380px !important;
+}
+
+.best-snow {
+    border-radius: 10px !important;
+    min-height: 425px !important;
+    height: 100% !important;
+    width: 100% !important;
+    min-width: 300px !important;
+}
