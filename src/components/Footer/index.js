@@ -5,7 +5,7 @@ import "./style.css"
 export default function CustomFooter() {
     return (
         <Footer
-            className="footer"
+            className="customFooter"
             copyrights="© 2021 Copyright Paul Vatterott"
         >
             <h5 className="white-text left-align">

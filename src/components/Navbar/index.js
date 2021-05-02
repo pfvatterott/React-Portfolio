@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Navbar, NavItem, Icon } from 'react-materialize';
 import logo from "./logo.png"
 import "./style.css"
@@ -33,7 +34,7 @@ export default function CustomNavbar() {
                         <a href="#!email"><span class="black-text email">pfvatterott@gmail.com</span></a>
                         </div>
                     </li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <li><Link to="/">Contact</Link></li>
                     <li><a href="#Languages">Languages and Skills</a></li>
                     <li><a href="#PortfolioMobile">Portfolio</a></li>
                 </ul>
