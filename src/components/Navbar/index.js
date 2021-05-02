@@ -34,18 +34,18 @@ export default function CustomNavbar() {
                         <a href="#!email"><span class="black-text email">pfvatterott@gmail.com</span></a>
                         </div>
                     </li>
-                    <li><Link to="/">Contact</Link></li>
-                    <li><a href="#Languages">Languages and Skills</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/languages">Languages and Skills</Link></li>
                     <li><a href="#PortfolioMobile">Portfolio</a></li>
                 </ul>
             }
             >
             
-            <NavItem href="">
-                Contact
+            <NavItem >
+                <Link to="/">Home</Link>
             </NavItem>
-            <NavItem href="">
-                Languages and Skills
+            <NavItem>
+                <Link to="/languages">Languages and Skills</Link>
             </NavItem>
             <NavItem href="">
                 Portfolio

@@ -1,5 +1,6 @@
 import React from "react";
 import Home from "./pages/home"
+import Languages from "./pages/languages"
 import { Switch, Route } from 'react-router-dom'
 import CustomNavbar from './components/Navbar'
 import CustomFooter from "./components/Footer"
@@ -13,6 +14,7 @@ function App() {
       <CustomNavbar />
       <Switch>
         <Route exact path="/" component={Home}/>
+        <Route exact path="/languages" component={Languages}/>
       </Switch>
       <CustomFooter />
     </div>
