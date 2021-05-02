@@ -1,10 +1,11 @@
 import React from "react";
-import { Parallax, Row, Col } from 'react-materialize';
+import { Parallax, Row, Col, Footer } from 'react-materialize';
 import CustomNavbar from './components/Navbar'
 import Section from "./components/Section"
 import ProfilePic from "./components/ProfilePic"
 import Name from "./components/Name"
 import Icons from "./components/Icons"
+import CustomFooter from "./components/Footer"
 import background1 from './assets/images/background-1.png'
 import background2 from './assets/images/background-2.jpg'
 import 'materialize-css';
@@ -42,6 +43,7 @@ function App() {
         responsiveThreshold: 0
         }}
       />
+      <CustomFooter />
     </div>
   );
 }
