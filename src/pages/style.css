@@ -8,5 +8,7 @@
 }
 
 .text-section {
-    margin-left: 80px;
+    margin-left: 80px !important;
+    float: left !important;
 }
+

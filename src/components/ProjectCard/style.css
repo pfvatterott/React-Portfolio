@@ -14,15 +14,15 @@
 }
 
 .directory-border {
-    border-radius: 25px;
-    background-image: linear-gradient(to right, #C45A60, #C49598);
-    width: 100%;
-    min-width: 380px;
+    border-radius: 25px !important;
+    background-image: linear-gradient(to right, #C45A60, #C49598) !important;
+    width: 100% !important;
+    min-width: 380px !important;
 }
 
 .ndevr-border {
-    border-radius: 25px;
-    background-image: linear-gradient(to right, #027D9C, #02BAE8);
-    width: 100%;
-    min-width: 380px;
+    border-radius: 25px !important;
+    background-image: linear-gradient(to right, #027D9C, #02BAE8) !important;
+    width: 100% !important;
+    min-width: 380px !important;
 }

@@ -1,8 +1,20 @@
 .github-button {
     background-color: #00bcd4 !important;
     border-radius: 10px !important;
+    float: left !important;
 }
 
 .github-button:hover {
+    background-color: #2E3639 !important;
+}
+
+.github-button-middle {
+    background-color: #00bcd4 !important;
+    border-radius: 10px !important;
+    float: left !important;
+    margin-left: 0 !important;
+}
+
+.github-button-middle:hover {
     background-color: #2E3639 !important;
 }

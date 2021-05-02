@@ -36,19 +36,18 @@ function Portfolio() {
                     <Line/>
                 </Col>
                 <Col s={12} m={5}>
-                    <h3 class="header grey-text text-darken-3 lighten-3 text-section" data-aos="fade-left">Best Snow</h3>
-                    <p class="grey-text text-darken-3 lighten-3 text-section" data-aos="fade-left">
+                    <h3 class="header grey-text text-darken-3 lighten-3 text-section left-align" data-aos="fade-left">Best Snow</h3>
+                    <p class="grey-text text-darken-3 lighten-3 text-section left-align" data-aos="fade-left">
                         <br></br>
                         Best Snow is a website that shows winter sport enthusiasts how the current snow pack compares to previous
                         winter seasons in hundreds of locations across the Western United States.
                     </p>
-                    <p class="grey-text text-darken-3 lighten-3 text-section" data-aos="fade-left">
-                        <br></br>
+                    <p class="grey-text text-darken-3 lighten-3 text-section left-align" data-aos="fade-left">
                         This project was created by a team of four members. My main role was connecting to and communicating with an
                         API, organizing and interpreting data, and building the Map UI and graphs.
+                        <br></br><br></br><br></br>
                     </p>
-                    <br></br>
-                    <GithubButton githubLink={"https://github.com/pfvatterott/BestSnow"}/>
+                    <GithubButton githubLink={"https://github.com/pfvatterott/BestSnow"} className={"text-section waves-effect waves-light btn-large github-button z-depth-3 hoverable left-align"}/>
                 </Col>
             </Row>
             <br></br><br></br>
@@ -56,19 +55,19 @@ function Portfolio() {
             <Row className="container">
                 <Col s={12} m={5}>
                     <br></br>
-                    <h3 class="header grey-text text-darken-3 lighten-3" data-aos="fade-right">Employee Directory</h3>
-                    <p class="grey-text text-darken-3 lighten-3" data-aos="fade-right">
+                    <h3 class="header grey-text text-darken-3 lighten-3 left-align" data-aos="fade-right">Employee Directory</h3>
+                    <p class="grey-text text-darken-3 lighten-3 left-align" data-aos="fade-right">
                         <br></br>
                         My first React Website! Employee Directory is an application that helps a manager keep track of their employees.
                         They can navigate through a paginated list, search, or sort through it. They can also see more information by a 
                         popup Modal.
                     </p>
-                    <p class="grey-text text-darken-3 lighten-3" data-aos="fade-right">
+                    <p class="grey-text text-darken-3 lighten-3 left-align" data-aos="fade-right">
                         <br></br>
                         This application is centered around ReactJS but also uses MaterializeCSS, React-Materialize, and Axios. 
                     </p>
                     <br></br>
-                    <GithubButton githubLink={"https://github.com/pfvatterott/Employee-Directory"}/>
+                    <GithubButton githubLink={"https://github.com/pfvatterott/Employee-Directory"} className={"text-section waves-effect waves-light btn-large github-button-middle z-depth-3 hoverable left-align"}/>
                 </Col>
                 <Col s={12} m={1}>
                     <br></br><br></br>
@@ -91,17 +90,17 @@ function Portfolio() {
                     <Line/>
                 </Col>
                 <Col s={12} m={5}>
-                    <h3 class="header grey-text text-darken-3 lighten-3 text-section" data-aos="fade-left">N-DEVR</h3>
-                    <p class="grey-text text-darken-3 lighten-3 text-section" data-aos="fade-left">
+                    <h3 class="header grey-text text-darken-3 lighten-3 text-section left-align" data-aos="fade-left">N-DEVR</h3>
+                    <p class="grey-text text-darken-3 lighten-3 text-section left-align" data-aos="fade-left">
                         <br></br>
                         N-DEVR is a Strava companion app that aims to help adventure seekers plan out their outdoor activities & endeavors. Our team's mission is to easily allow our active outdoor community to plan, organize, and include friends in outdoor pursuits and goals.
                     </p>
-                    <p class="grey-text text-darken-3 lighten-3 text-section" data-aos="fade-left">
+                    <p class="grey-text text-darken-3 lighten-3 text-section left-align" data-aos="fade-left">
                         <br></br>
                         This project was created by a team of two. My main role was backend, database communication, setting up communication with Strava, and creating the map UI.
+                        <br></br><br></br>
                     </p>
-                    <br></br>
-                    <GithubButton githubLink={"https://github.com/pfvatterott/N-DEVR"}/>
+                    <GithubButton githubLink={"https://github.com/pfvatterott/N-DEVR"} className={"text-section waves-effect waves-light btn-large github-button z-depth-3 hoverable left-align"}/>
                 </Col>
             </Row>
         </Section>
