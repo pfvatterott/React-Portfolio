@@ -1,8 +1,8 @@
 .github-button {
-    background-color: #00bcd4;
-    border-radius: 10px;
+    background-color: #00bcd4 !important;
+    border-radius: 10px !important;
 }
 
 .github-button:hover {
-    background-color: #2E3639
+    background-color: #2E3639 !important;
 }
