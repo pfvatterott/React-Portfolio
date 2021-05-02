@@ -16,7 +16,13 @@ function Portfolio() {
             }}
         />
         <Section>
-            
+            <h2 class="center-align" data-aos="fade-down">My Projects</h2>
+            <br></br><br></br>
+            <Row className="container">
+                <Col s={12} m={6}>
+                    
+                </Col>
+            </Row>
         </Section>
         <Parallax
             image={<img alt="" src={background2}/>}
