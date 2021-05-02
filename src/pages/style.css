@@ -1,0 +1,9 @@
+.languageIcons {
+    background-color: #00bcd4 !important;
+    margin-right: 5px;
+}
+
+.languageIcons:hover {
+    background-color: #2E3639 !important;
+}
+

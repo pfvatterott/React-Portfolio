@@ -24,7 +24,7 @@ function Home() {
             </Col>
             <Col s={12} m={6}>
                 <Name/>
-                <Icons href="https://github.com/pfvatterott" iconName="fab fa-github tooltipped contact-icons"/>
+                <Icons href="https://github.com/pfvatterott" iconName="fab fa-github tooltipped contact-icons" tooltip="working" tooltipOptions={{position: 'top'}}/>
                 <Icons href="https://www.linkedin.com/in/paul-vatterott/" iconName="fab fa-linkedin-in tooltipped contact-icons"/>
                 <Icons href="https://www.instagram.com/pppaaaauuuullllll/" iconName="fab fa-instagram tooltipped contact-icons"/>
                 <Icons href="https://www.facebook.com/paul.vatterott/" iconName="fab fa-facebook tooltipped contact-icons"/>

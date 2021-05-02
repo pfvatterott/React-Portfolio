@@ -7,10 +7,9 @@ import resumeDownload from "../../assets/images/resume.pdf"
 export default function Resume() {
     return (
         <div>
-            
             <MediaBox
                 id="resume"
-                className="z-depth-3 hoverable"
+                className="z-depth-3 hoverable center-align"
                 options={{
                     inDuration: 275,
                     onCloseEnd: null,
@@ -26,7 +25,7 @@ export default function Resume() {
                 />
             </MediaBox>
 
-            <a href={resumeDownload} download class="waves-effect waves-light btn-large download-button"
+            <a href={resumeDownload} download class="waves-effect waves-light btn-large download-button center-align"
             data-aos="fade-left"><i class="material-icons left">download</i>pdf resume</a>
         </div>
     )

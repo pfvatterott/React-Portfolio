@@ -1,10 +1,11 @@
 import React from 'react'
-import { Parallax, Row, Col} from 'react-materialize';
+import { Parallax, Row, Col, Button, Icon} from 'react-materialize';
 import Section from "../components/Section"
 import Icons from "../components/Icons"
 import Resume from "../components/Resume"
 import background1 from '../assets/images/background-1.png'
 import background2 from '../assets/images/background-2.jpg'
+import "./style.css"
 
 
 function Languages() {
@@ -33,6 +34,56 @@ function Languages() {
                         Once I earn my certificate from the University of Utah I will be joining the job search as a full-stack web
                         developer. Until then, please reach out if you'd like to talk or collaborate!
                     </p>
+                    <br/>
+                    <Button
+                        floating
+                        className="fab fa-html5 languageIcons z-depth-4"
+                        large
+                        node="button"
+                        tooltip="HTML5"
+                    />
+                     <Button
+                        floating
+                        className="fab fa-css3 languageIcons z-depth-4"
+                        large
+                        node="button"
+                        tooltip="CSS3"
+                    />
+                     <Button
+                        floating
+                        className="fab fa-windows languageIcons z-depth-4"
+                        large
+                        node="button"
+                        tooltip="Visual Studio Code"
+                    />
+                     <Button
+                        floating
+                        className="fab fa-js-square languageIcons z-depth-4"
+                        large
+                        node="button"
+                        tooltip="JavaScript"
+                    />
+                     <Button
+                        floating
+                        className="fab fa-node-js languageIcons z-depth-4"
+                        large
+                        node="button"
+                        tooltip="NodeJS"
+                    />
+                     <Button
+                        floating
+                        className="fas fa-database languageIcons z-depth-4"
+                        large
+                        node="button"
+                        tooltip="MySql and NoSql"
+                    />
+                    <Button
+                        floating
+                        className="fab fa-react languageIcons z-depth-4"
+                        large
+                        node="button"
+                        tooltip="ReactJS"
+                    />
                 </Col>
                 <Col s={12} m={1}></Col>    
                 <Col s={12} m={5}>

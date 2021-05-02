@@ -36,7 +36,7 @@ export default function CustomNavbar() {
                     </li>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/languages">Languages and Skills</Link></li>
-                    <li><a href="#PortfolioMobile">Portfolio</a></li>
+                    <li><Link to="/portfolio">Portfolio</Link></li>
                 </ul>
             }
             >
@@ -47,8 +47,8 @@ export default function CustomNavbar() {
             <NavItem>
                 <Link to="/languages">Languages and Skills</Link>
             </NavItem>
-            <NavItem href="">
-                Portfolio
+            <NavItem>
+            <Link to="/portfolio">Portfolio</Link>
             </NavItem>
         </Navbar>
     )
