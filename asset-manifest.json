@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.51cfc7b7.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.85d89573.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.85d89573.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.dbb2d326.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.2814c741.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.2814c741.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.58aa6245.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.58aa6245.js.map",
-    "static/css/2.f937dbbf.chunk.css": "/React-Portfolio/static/css/2.f937dbbf.chunk.css",
+    "static/css/2.f294b533.chunk.css": "/React-Portfolio/static/css/2.f294b533.chunk.css",
     "static/js/2.f16e6b2b.chunk.js": "/React-Portfolio/static/js/2.f16e6b2b.chunk.js",
     "static/js/2.f16e6b2b.chunk.js.map": "/React-Portfolio/static/js/2.f16e6b2b.chunk.js.map",
     "static/js/3.0e16d4f2.chunk.js": "/React-Portfolio/static/js/3.0e16d4f2.chunk.js",
     "static/js/3.0e16d4f2.chunk.js.map": "/React-Portfolio/static/js/3.0e16d4f2.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "static/css/2.f937dbbf.chunk.css.map": "/React-Portfolio/static/css/2.f937dbbf.chunk.css.map",
-    "static/css/main.51cfc7b7.chunk.css.map": "/React-Portfolio/static/css/main.51cfc7b7.chunk.css.map",
+    "static/css/2.f294b533.chunk.css.map": "/React-Portfolio/static/css/2.f294b533.chunk.css.map",
+    "static/css/main.dbb2d326.chunk.css.map": "/React-Portfolio/static/css/main.dbb2d326.chunk.css.map",
     "static/js/2.f16e6b2b.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.f16e6b2b.chunk.js.LICENSE.txt",
     "static/media/material-icons.css": "/React-Portfolio/static/media/MaterialIconsTwoTone-Regular.fd169782.otf",
     "static/media/background-1.ee976b1f.png": "/React-Portfolio/static/media/background-1.ee976b1f.png",
@@ -29,9 +29,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.58aa6245.js",
-    "static/css/2.f937dbbf.chunk.css",
+    "static/css/2.f294b533.chunk.css",
     "static/js/2.f16e6b2b.chunk.js",
-    "static/css/main.51cfc7b7.chunk.css",
-    "static/js/main.85d89573.chunk.js"
+    "static/css/main.dbb2d326.chunk.css",
+    "static/js/main.2814c741.chunk.js"
   ]
 }
