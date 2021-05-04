@@ -10,18 +10,16 @@ This website's purpose is to demonstrate my abilities in creating a webpage whil
 
 Some fun features of this website:
 
-* A logo that fades out while scrolling down the page and fades back in when scrolling up
 * A resume displayed as a png that is also downloadable as a pdf
-* Scollspy for links in navbar
 * A collapsible navbar for mobile browsing
 * Lots of FABs featuring Font Awesome Icons
 * Cards presenting my various projects
 * Hover effects
 * Tooltips for all buttons
-* Scrolling animations for most buttons, text, and images
 
 
 ## Built With
+* [ReactJS](https://reactjs.org/)
 * [Materialize CSS](https://materializecss.com/)
 * [JQuery](https://jquery.com/)
 * [Font Awesome](https://fontawesome.com/)
