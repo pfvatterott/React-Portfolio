@@ -284,6 +284,98 @@ function Portfolio() {
                     <GithubButton githubLink={"https://github.com/pfvatterott/Employee-Directory"} className={"text-section waves-effect waves-light btn-large github-button-middle z-depth-3 hoverable left-align"}/>
                 </Col>
             </Row>
+
+            <Row className="container">
+                <Col s={12} m={5}>
+                    <div class="line1-mobile" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000"></div>
+                </Col>
+            </Row>
+            <br></br>
+
+            {/* Fourth Card */}
+            <Row className="container">
+                 <Col s={12} m={5}>
+                    <div class="card-panel center-align team-generator-border-small z-depth-5 hoverable" data-aos="fade-right">
+                        <a href="https://github.com/pfvatterott/Team-Profile-Generator" target="_blank"><img
+                            class="responsive-img best-snow-small" data-aos="fade-right" src={teamGeneratorScreenshot}
+                            alt="screenshot of weather dashboard" />
+                        </a>
+                     </div> 
+                </Col>
+                <Col s={12} m={5}>
+                    <h3 class="header grey-text text-darken-3 lighten-3 left-align" data-aos="fade-left">Team Profile Generator</h3>
+                    <p class="grey-text text-darken-3 lighten-3 left-align" data-aos="fade-left">
+                        <br></br>
+                        Team Profile Generator is a command line application that helps a manager keep track of their team. The application prompts the user about details for each member and then dynamically makes a webpage that displays all team data.
+                        <br></br><br></br>
+                        This application was made to get familiar with NodeJS. It also uses Inquirer NPM, Jest, and MaterializeCSS.
+                    </p>
+                    <br></br>
+                    <GithubButton githubLink={"https://github.com/pfvatterott/Team-Profile-Generator"} className={"text-section waves-effect waves-light btn-large github-button-middle z-depth-3 hoverable left-align"}/>
+                </Col>
+            </Row>
+
+            <Row className="container">
+                <Col s={12} m={5}>
+                    <div class="line1-mobile" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000"></div>
+                </Col>
+            </Row>
+            <br></br>
+
+            {/* Fifth Card */}
+            <Row className="container">
+                 <Col s={12} m={5}>
+                    <div class="card-panel center-align workoutTracker-border-small z-depth-5 hoverable" data-aos="fade-right">
+                        <a href="https://enigmatic-cliffs-12933.herokuapp.com/" target="_blank"><img
+                            class="responsive-img best-snow-small" data-aos="fade-right" src={workoutTrackerScreenshot}
+                            alt="screenshot of weather dashboard" />
+                        </a>
+                     </div> 
+                </Col>
+                <Col s={12} m={5}>
+                    <h3 class="header grey-text text-darken-3 lighten-3 left-align" data-aos="fade-left">Workout Tracker</h3>
+                    <p class="grey-text text-darken-3 lighten-3 left-align" data-aos="fade-left">
+                        <br></br>
+                        Workout Tracker allows a user to input either a strength or cardio workout and then add detail to is such as name, weights, sets, duration, reps, or distance. Then the user
+                        can look at their progress on the dashboard menu. 
+                        <br></br><br></br>
+                        This project was built to get familiar with MongoDB and MongooseJS. I also used Express for the backend.
+                    </p>
+                    <br></br>
+                    <GithubButton githubLink={"https://github.com/pfvatterott/Workout-Tracker"} className={"text-section waves-effect waves-light btn-large github-button-middle z-depth-3 hoverable left-align"}/>
+                </Col>
+            </Row>
+
+            <Row className="container">
+                <Col s={12} m={5}>
+                    <div class="line1-mobile" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000"></div>
+                </Col>
+            </Row>
+            <br></br>
+
+            {/* Sixth Card */}
+            <Row className="container">
+                 <Col s={12} m={5}>
+                    <div class="card-panel center-align noteTaker-border-small z-depth-5 hoverable" data-aos="fade-right">
+                        <a href="https://pfvatterott-note-taker.herokuapp.com/" target="_blank"><img
+                            class="responsive-img best-snow-small" data-aos="fade-right" src={noteTakerScreenshot}
+                            alt="screenshot of weather dashboard" />
+                        </a>
+                     </div> 
+                </Col>
+                <Col s={12} m={5}>
+                    <h3 class="header grey-text text-darken-3 lighten-3 left-align" data-aos="fade-left">Note Taker</h3>
+                    <p class="grey-text text-darken-3 lighten-3 left-align" data-aos="fade-left">
+                        <br></br>
+                        Note Taker allows the user to take notes! The user can write new notes, edit old ones, and delete ones they don't need anymore. 
+                        <br></br><br></br>
+                        Note Taker was created to use a database for the first time. This program uses several NPM packages including Unique-Identifier to create unique IDs and express to handle all web frameworks.
+                    </p>
+                    <br></br>
+                    <GithubButton githubLink={"https://github.com/pfvatterott/Note-Taker"} className={"text-section waves-effect waves-light btn-large github-button-middle z-depth-3 hoverable left-align"}/>
+                </Col>
+            </Row>
+
         </MobileProjectSection>
         <Parallax
             image={<img alt="" src={background2}/>}

@@ -36,3 +36,18 @@
     border-radius: 25px !important;
     background-image: linear-gradient(to right, #C45A60, #C49598);
 }
+
+.team-generator-border-small {
+    border-radius: 25px !important;
+    background-image: linear-gradient(to right, #007A8A, #00BFD7);
+}
+
+.workoutTracker-border-small {
+    border-radius: 25px !important;
+    background-image: linear-gradient(to right, #2A5BB0, #70A5FF)
+}
+
+.noteTaker-border-small {
+    border-radius: 25px !important;
+    background-image: linear-gradient(to right, #07705B, #3BFFD8)
+}
