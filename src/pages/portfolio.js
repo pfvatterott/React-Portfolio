@@ -10,6 +10,9 @@ import background1 from '../assets/images/background-1.png'
 import background2 from '../assets/images/background-2.jpg'
 import bestSnowScreenshot from "../assets/images/bestsnowscreenshot.png"
 import employeeDirectoryScreenshot from "../assets/images/employeeDirectory.png"
+import teamGeneratorScreenshot from "../assets/images/teamgeneratornew.png"
+import workoutTrackerScreenshot from "../assets/images/workoutTracker-screenshot.png"
+import noteTakerScreenshot from "../assets/images/noteTaker-screenshot.png"
 import ndevrScreenshot from "../assets/images/ndevrscreenshot.png"
 
 
@@ -104,6 +107,88 @@ function Portfolio() {
                     <GithubButton githubLink={"https://github.com/pfvatterott/N-DEVR"} className={"text-section waves-effect waves-light btn-large github-button z-depth-3 hoverable left-align"}/>
                 </Col>
             </Row>
+            <br></br><br></br>
+            {/* Fourth Card */}
+            <Row className="container">
+                <Col s={12} m={5}>
+                    <br></br>
+                    <h3 class="header grey-text text-darken-3 lighten-3 left-align" data-aos="fade-right">Team Profile Generator</h3>
+                    <p class="grey-text text-darken-3 lighten-3 left-align" data-aos="fade-right">
+                        <br></br>
+                        Team Profile Generator is a command line application that helps a manager keep track of their team. The application prompts the user about details for each member and then dynamically makes a webpage that displays all team data.
+                    </p>
+                    <p class="grey-text text-darken-3 lighten-3 left-align" data-aos="fade-right">
+                        <br></br>
+                        This application was made to get familiar with NodeJS. It also uses Inquirer NPM, Jest, and MaterializeCSS.
+                    </p>
+                    <br></br>
+                    <GithubButton githubLink={"https://github.com/pfvatterott/Team-Profile-Generator"} className={"text-section waves-effect waves-light btn-large github-button-middle z-depth-3 hoverable left-align"}/>
+                </Col>
+                <Col s={12} m={1}>
+                    <br></br><br></br>
+                    <Line/>
+                </Col>
+                <Col s={12} m={1}></Col>
+                <Col s={12} m={5}>
+                    <ProjectCard image={teamGeneratorScreenshot} linkToProject={"https://github.com/pfvatterott/Team-Profile-Generator"} className={"teamProfileGenerator-border card-panel center-align z-depth-5 hoverable"}/>
+                </Col>
+            </Row>
+
+            <br></br><br></br>
+            {/* Fifth Card */}
+            <Row className="container">
+                <Col s={12} m={5}>
+                    <ProjectCard image={workoutTrackerScreenshot} linkToProject={"https://enigmatic-cliffs-12933.herokuapp.com/"} className={"workoutTracker-border card-panel center-align z-depth-5 hoverable"}/>
+                </Col>
+                <Col s={12} m={1}></Col>
+                <Col s={12} m={1}>
+                    <br></br><br></br>
+                    <Line/>
+                </Col>
+                <Col s={12} m={5}>
+                    <h3 class="header grey-text text-darken-3 lighten-3 text-section left-align" data-aos="fade-left">Workout Tracker</h3>
+                    <p class="grey-text text-darken-3 lighten-3 text-section left-align" data-aos="fade-left">
+                        <br></br>
+                        Workout Tracker allows a user to input either a strength or cardio workout and then add detail to is such as name, weights, sets, duration, reps, or distance. Then the user
+                        can look at their progress on the dashboard menu. 
+                    </p>
+                    <p class="grey-text text-darken-3 lighten-3 text-section left-align" data-aos="fade-left">
+                        <br></br>
+                        This project was built to get familiar with MongoDB and MongooseJS. I also used Express for the backend.
+                        <br></br><br></br>
+                    </p>
+                    <GithubButton githubLink={"https://github.com/pfvatterott/Workout-Tracker"} className={"text-section waves-effect waves-light btn-large github-button z-depth-3 hoverable left-align"}/>
+                </Col>
+            </Row>
+
+            <br></br><br></br>
+            {/* Sixth Card */}
+            <Row className="container">
+                <Col s={12} m={5}>
+                    <br></br>
+                    <h3 class="header grey-text text-darken-3 lighten-3 left-align" data-aos="fade-right">Note Taker</h3>
+                    <p class="grey-text text-darken-3 lighten-3 left-align" data-aos="fade-right">
+                        <br></br>
+                        Note Taker allows the user to take notes! The user can write new notes, edit old ones, and delete ones they don't need anymore.
+                    </p>
+                    <p class="grey-text text-darken-3 lighten-3 left-align" data-aos="fade-right">
+                        <br></br>
+                        Note Taker was created to use a database for the first time. This program uses several NPM packages including Unique-Identifier to create unique IDs and express to handle all web frameworks.
+                    </p>
+                    <br></br>
+                    <GithubButton githubLink={"https://github.com/pfvatterott/Note-Taker"} className={"text-section waves-effect waves-light btn-large github-button-middle z-depth-3 hoverable left-align"}/>
+                </Col>
+                <Col s={12} m={1}>
+                    <br></br><br></br>
+                    <Line/>
+                </Col>
+                <Col s={12} m={1}></Col>
+                <Col s={12} m={5}>
+                    <ProjectCard image={noteTakerScreenshot} linkToProject={"https://pfvatterott-note-taker.herokuapp.com/"} className={"noteTaker-border card-panel center-align z-depth-5 hoverable"}/>
+                </Col>
+            </Row>
+
+           
         </ProjectSection>
 
         {/* Mobile Cards */}

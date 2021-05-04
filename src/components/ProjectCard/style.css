@@ -26,3 +26,24 @@
     width: 100% !important;
     min-width: 380px !important;
 }
+
+.teamProfileGenerator-border {
+    border-radius: 25px !important;
+    background-image: linear-gradient(to right, #007A8A, #00BFD7) !important;
+    width: 100% !important;
+    min-width: 380px !important;
+}
+
+.workoutTracker-border {
+    border-radius: 25px !important;
+    background-image: linear-gradient(to right, #2A5BB0, #70A5FF) !important;
+    width: 100% !important;
+    min-width: 380px !important;
+}
+
+.noteTaker-border {
+    border-radius: 25px !important;
+    background-image: linear-gradient(to right, #07705B, #3BFFD8) !important;
+    width: 100% !important;
+    min-width: 380px !important;
+}
